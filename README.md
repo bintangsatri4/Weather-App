@@ -34,7 +34,7 @@ A modern Android weather application built with Kotlin that provides real-time w
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/weather-app.git
+https://github.com/bintangsatriamulya/Weather-App
 ```
 
 2. Open the project in Android Studio
@@ -42,25 +42,6 @@ git clone https://github.com/yourusername/weather-app.git
 3. Create a `local.properties` file in the root directory and add your OpenWeatherMap API key:
 ```properties
 WEATHER_API_KEY=your_api_key_here
-```
-
-4. Build and run the project
-
-## Project Structure
-
-```
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/weatherapp/
-│   │   │   ├── data/
-│   │   │   ├── di/
-│   │   │   ├── domain/
-│   │   │   ├── presentation/
-│   │   │   └── utils/
-│   │   └── res/
-│   └── test/
-└── build.gradle
 ```
 
 ## Architecture
@@ -100,8 +81,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Material Design for UI components
 - Android development community for helpful resources
 
-## Contact
-
-Your Name - [@yourusername](https://twitter.com/yourusername)
-
-Project Link: [https://github.com/yourusername/weather-app](https://github.com/yourusername/weather-app)
