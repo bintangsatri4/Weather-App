@@ -30,7 +30,38 @@
                 android:textColor="@color/white"
                 android:textSize="36sp"
                 android:textAlignment="center"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/lato_bold"/>
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/sunny"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+            android:id="@+id/TextViewDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tuesday 19 Nov | 12:00 AM"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+                android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato"/>
+
+            <TextView
+                android:id="@+id/TextViewDegre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19°"
+                android:textColor="@color/white"
+                android:textSize="75sp"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"
                 android:fontFamily="@font/lato_bold"/>
 
         </LinearLayout>
